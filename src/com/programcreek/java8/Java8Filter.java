@@ -1,9 +1,11 @@
+package com.programcreek.java8;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
 
-public class Hello {
+public class Java8Filter {
 
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
