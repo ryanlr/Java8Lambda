@@ -1,4 +1,4 @@
-package com.programcreek.java8;
+package com.programcreek.java8.stream;
 
 public class Java8StreamResultCollector {
 

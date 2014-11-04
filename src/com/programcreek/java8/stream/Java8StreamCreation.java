@@ -1,4 +1,4 @@
-package com.programcreek.java8;
+package com.programcreek.java8.stream;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -38,6 +38,8 @@ public class Java8StreamCreation {
 		
 		Double[] doubleArr = integerStream.toArray(Double[]::new);
 		System.out.println(Arrays.toString(doubleArr));
+		
+		//how to get 20 random number range from 0 - 10? 
 		
 		// iterate()
 		Stream<BigInteger> bigIntStream = Stream.iterate(BigInteger.ZERO, n -> n.add(BigInteger.ONE)).limit(10);

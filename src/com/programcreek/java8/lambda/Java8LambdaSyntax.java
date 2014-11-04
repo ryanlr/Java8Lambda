@@ -1,4 +1,4 @@
-package com.programcreek.java8;
+package com.programcreek.java8.lambda;
 
 public class Java8LambdaSyntax {
 
