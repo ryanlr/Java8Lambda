@@ -16,6 +16,11 @@ public class Java8WhyLambda {
 		Stream<Dog> sortedDogStream = dogStream.sorted((m, n) -> Integer.compare(m.getHeight(), n.getHeight()));
 
 		sortedDogStream.forEach(d -> System.out.print(d));
+		
+		//another syntax
+		sortedDogStream.forEach(System.out::println);
+		
+		
 	}
 
 }
