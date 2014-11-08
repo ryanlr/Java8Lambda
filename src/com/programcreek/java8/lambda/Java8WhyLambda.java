@@ -13,14 +13,8 @@ public class Java8WhyLambda {
 
 		// use stream to sort
 		Stream<Dog> dogStream = Stream.of(dogArray);
-		Stream<Dog> sortedDogStream = dogStream.sorted((m, n) -> Integer.compare(m.getHeight(), n.getHeight()));
+		Stream<Dog> sortedDogStream = dogStream.sorted((Dog m, Dog n) -> Integer.compare(m.getHeight(), n.getHeight()));
 
 		sortedDogStream.forEach(d -> System.out.print(d));
-		
-		//another syntax
-		sortedDogStream.forEach(System.out::println);
-		
-		
 	}
-
 }

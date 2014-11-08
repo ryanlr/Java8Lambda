@@ -39,5 +39,4 @@ public class Dog {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
-
 }
