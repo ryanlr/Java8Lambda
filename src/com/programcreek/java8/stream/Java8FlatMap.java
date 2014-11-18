@@ -12,11 +12,14 @@ import java.util.stream.Stream;
 
 public class Java8FlatMap {
 
-	public static void main(String[] args) {
-		ArrayList<Order> orders = new ArrayList<Order>();
-		Stream<Item> itemStream = orders.stream().flatMap(order -> order.getItems().stream());
-		
-	}
+public static void main(String[] args) {
+	
+	
+	
+	ArrayList<Order> orders = new ArrayList<Order>();
+	Stream<Item> itemStream = orders.stream().flatMap(order -> order.getItems().stream());
+	
+}
 	
 	public static Stream<Character> convertToCharStream(String s){
 		ArrayList<Character> list = new ArrayList<Character>();
